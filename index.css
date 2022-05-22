@@ -1,0 +1,104 @@
+body{
+    overflow:hidden;
+}
+
+.wrapper{
+    position:absolute;
+    height:auto;
+    width:1500px;
+    
+}
+
+.button{
+    margin:10px;
+    display:flex;
+    height:50px;
+    width:200px;
+    float:right;
+    flex-direction:row-reverse;
+}
+
+.button div{
+    display:flex;
+}
+
+.text{
+    font-size: 20px;
+    margin-right:10px;
+    display:none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.edit--icon{
+    height:50px;
+}
+.play--icon{
+    height:50px;
+}
+#edit--icon{
+    cursor: pointer;
+    display:none; 
+}
+#play--icon{
+    cursor: pointer;
+    display:block;
+}
+
+
+.edit{
+    position:absolute; 
+    margin-top:50px;
+    margin-left:150px;
+    overflow:hidden;
+}
+
+.edit--grid{
+    overflow:hidden;
+    display:grid;
+    grid-template: repeat(5, 130px) / repeat(5, 130px);
+}
+
+.editarea{
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top:60px;
+    resize:none;
+    text-align:center;
+    overflow:hidden;
+}
+
+.title{
+    color:rgb(240, 240, 240);
+    font-size:60px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position:absolute;
+    margin-left:820px;
+    margin-top:0px;
+}
+
+.bingo--card{
+    position:absolute;
+    display:none;
+    height:650px;
+    width:650px;
+    grid-template: repeat(5, 130px) / repeat(5, 130px);
+    outline: 2px solid black;
+    margin-left:10%;
+    margin-top:50px;
+}
+
+.box{
+    cursor:pointer;
+    outline: 2px solid black;
+}
+
+.dot{
+    cursor:pointer;
+    position:absolute;
+    background-color:red;
+    margin: 2.5px 0 0 2.5px;
+    border-radius:100px;
+    height:125px;
+    width:125px;
+    display:none;
+}
