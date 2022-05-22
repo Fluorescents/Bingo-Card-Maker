@@ -47,8 +47,8 @@ body{
 
 .edit{
     position:absolute; 
-    margin-top:50px;
-    margin-left:150px;
+    margin-top:120px;
+    margin-left:600px;
     overflow:hidden;
 }
 
@@ -67,15 +67,6 @@ body{
     overflow:hidden;
 }
 
-.title{
-    color:rgb(240, 240, 240);
-    font-size:60px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    position:absolute;
-    margin-left:820px;
-    margin-top:0px;
-}
-
 .bingo--card{
     position:absolute;
     display:none;
@@ -83,13 +74,13 @@ body{
     width:650px;
     grid-template: repeat(5, 130px) / repeat(5, 130px);
     outline: 2px solid black;
-    margin-left:10%;
-    margin-top:50px;
+    margin-left:600px;
+    margin-top:120px;
 }
 
 .box{
     cursor:pointer;
-    outline: 1px solid black;
+    outline: 2px solid black;
 }
 
 .dot{
@@ -102,3 +93,4 @@ body{
     width:125px;
     display:none;
 }
+
