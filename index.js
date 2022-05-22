@@ -9,7 +9,7 @@ for(i=0;i<boxes.length;i++){
         } else{
             dot.style.display="block";
         }
-    })
+    });
     boxes[i].addEventListener("mouseover",function(){
         var dot = this.firstElementChild;
         dot.style.opacity = "0.5";
@@ -17,7 +17,7 @@ for(i=0;i<boxes.length;i++){
     boxes[i].addEventListener("mouseout",function(){
         var dot = this.firstElementChild;
         dot.style.opacity = "1";
-    })
+    });
     
 }
 
