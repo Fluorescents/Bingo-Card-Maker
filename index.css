@@ -44,6 +44,27 @@ body{
     display:block;
 }
 
+.clear{
+    display:flex;
+    margin-top:10px;
+    margin-left:450px;
+    position:absolute;
+    height:50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+#clear--icon{
+    height:50px;
+    cursor: pointer;
+}
+
+#clear--text{
+    font-size: 20px;
+    margin-left:10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display:none;
+}
+
 
 .edit{
     position:absolute; 
@@ -93,4 +114,3 @@ body{
     width:125px;
     display:none;
 }
-
